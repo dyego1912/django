@@ -40,3 +40,7 @@ def product_list(request):
 def warning(request):
     
     return render(request, 'warning.html')
+
+def about(request):
+    
+    return render(request, 'about.html')
